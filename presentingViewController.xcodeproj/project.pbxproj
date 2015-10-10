@@ -14,6 +14,7 @@
 		CDE4B1DF1B81B7F2006C6AF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE4B1DE1B81B7F2006C6AF0 /* Images.xcassets */; };
 		CDE4B1E21B81B7F2006C6AF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE4B1E01B81B7F2006C6AF0 /* LaunchScreen.xib */; };
 		CDE4B1EE1B81B7F2006C6AF0 /* presentingViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE4B1ED1B81B7F2006C6AF0 /* presentingViewControllerTests.m */; };
+		CDE4B1FC1B81CF99006C6AF0 /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE4B1FB1B81CF99006C6AF0 /* PopoverViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CDE4B1E71B81B7F2006C6AF0 /* presentingViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = presentingViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE4B1EC1B81B7F2006C6AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDE4B1ED1B81B7F2006C6AF0 /* presentingViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = presentingViewControllerTests.m; sourceTree = "<group>"; };
+		CDE4B1FA1B81CF99006C6AF0 /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
+		CDE4B1FB1B81CF99006C6AF0 /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				CDE4B1D61B81B7F2006C6AF0 /* AppDelegate.m */,
 				CDE4B1D81B81B7F2006C6AF0 /* ViewController.h */,
 				CDE4B1D91B81B7F2006C6AF0 /* ViewController.m */,
+				CDE4B1FA1B81CF99006C6AF0 /* PopoverViewController.h */,
+				CDE4B1FB1B81CF99006C6AF0 /* PopoverViewController.m */,
 				CDE4B1DB1B81B7F2006C6AF0 /* Main.storyboard */,
 				CDE4B1DE1B81B7F2006C6AF0 /* Images.xcassets */,
 				CDE4B1E01B81B7F2006C6AF0 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				CDE4B1DA1B81B7F2006C6AF0 /* ViewController.m in Sources */,
 				CDE4B1D71B81B7F2006C6AF0 /* AppDelegate.m in Sources */,
 				CDE4B1D41B81B7F2006C6AF0 /* main.m in Sources */,
+				CDE4B1FC1B81CF99006C6AF0 /* PopoverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				CDE4B1F31B81B7F2006C6AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDE4B1F41B81B7F2006C6AF0 /* Build configuration list for PBXNativeTarget "presentingViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				CDE4B1F61B81B7F2006C6AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
