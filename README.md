@@ -18,9 +18,8 @@
 PopoverController:被弹出的Controller<br>
 ViewController:主动弹出的Controller<br>
 主要代码如下：
-	
->PopoverViewController.h
-```objective-c
+
+```objective-c	
 	#import "PopoverViewController.h"
 
 	@implementation PopoverViewController
@@ -54,8 +53,9 @@ ViewController:主动弹出的Controller<br>
 	- (void)setPreferredContentSize:(CGSize)preferredContentSize{
     super.preferredContentSize = preferredContentSize;
 	}
-```	
->ViewController.h
+```
+	
+
 ```objective-c
 	#import "ViewController.h"
 	#import "PopoverViewController.h"
@@ -113,7 +113,7 @@ ViewController:主动弹出的Controller<br>
 	            break;
 	    }
 	    if (self.buttonPopVC) {
-	        [self.buttonPopVC dismissViewControllerAnimated:YES completion:nil];    //我暂时使用这个方法让popover消失，但我觉得应该                	有更好的方法，因为这个方法并不会调用popover消失的时候会执行的回调。
+	        [self.buttonPopVC dismissViewControllerAnimated:YES completion:nil];    //我暂时使用这个方法让popover消失，但我觉得应该有更好的方法，因为这个方法并不会调用popover消失的时候会执行的回调。
 	        self.buttonPopVC = nil;
 	        
 	    }else{
@@ -142,6 +142,3 @@ ViewController:主动弹出的Controller<br>
 	}
 ```
 PS：如果知道哪里有更好的实现，一定要告诉我呀！！！！
-
-
-　
