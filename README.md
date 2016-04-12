@@ -20,7 +20,7 @@ ViewController:主动弹出的Controller<br>
 主要代码如下：
 	
 >PopoverViewController.h
-
+```objective-c
 	#import "PopoverViewController.h"
 
 	@implementation PopoverViewController
@@ -54,9 +54,9 @@ ViewController:主动弹出的Controller<br>
 	- (void)setPreferredContentSize:(CGSize)preferredContentSize{
     super.preferredContentSize = preferredContentSize;
 	}
-	
+```	
 >ViewController.h
-
+```objective-c
 	#import "ViewController.h"
 	#import "PopoverViewController.h"
 	
@@ -140,8 +140,7 @@ ViewController:主动弹出的Controller<br>
 	- (BOOL)popoverPresentationControllerShouldDismissPopover:(UIPopoverPresentationController *)popoverPresentationController{
 	    return NO;   //no点击蒙版popover不消失， 默认yes
 	}
-
-完整的项目地址：[git](https://github.com/warmlight/UIPopoverPresentationController_DEMO)<br>
+```
 PS：如果知道哪里有更好的实现，一定要告诉我呀！！！！
 
 
